@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div id="post" class="container clearfix">
+
+  <div class="left">
+    <a href="/"><img id="logo" src="http://warble.co/images/home/Warble_Alerts_Logo.png" /></a>
+  </div>
+
+  <div class="main">
+
+    <h1 class="zero-margin post-title">{{ page.title }}</h1>
+
+    <div class="post-info">
+      <div class="date">{{ page.date || pretty }}</div>
+      <div class="category">Filed under: <b>{{ page.category }}</b></div>
+    </div>
+
+    <div class="post-body">
+      {{ content }}
+    </div>
+
+  </div>
+
+  <div class="right">
+    <img src="/images/{{ page.author }}.png" />
+    <p class="by"><i>by</i> {{ page.author }}</p>
+  </div>
+
+</div>
+

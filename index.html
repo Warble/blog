@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div id="index" class="container clearfix">
+
+  <div class="left">
+    <a href="/"><img id="logo" src="http://warble.co/images/home/Warble_Alerts_Logo.png" /></a>
+  </div>
+
+  <div class="main">
+
+    <h1 class="zero-margin post-gutter title">Warble Alerts Blog</h1>
+    <h2 class="sub zero-margin post-gutter">Learn more about Warble Alerts and how people are using it.</h2>
+
+    <ul class="posts">
+      {% for post in site.posts %}
+      <li>
+        <img src="../images/{{ post.author }}.png" />
+        <span class="post-date">{{ post.date | pretty}}, Filed under: <b>{{ post.category }}</b></span>
+        <span class="post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
+  <div class="right">
+  </div>
+
+</div>
+

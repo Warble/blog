@@ -1,0 +1,2 @@
+---
+exclude: Capfile, Gemfile, Gemfile.lock, Rakefile 

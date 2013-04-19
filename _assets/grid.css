@@ -1,0 +1,7 @@
+ 
+@media screen and (min-width: 0px) and (max-width: 950px) {
+    .left, .right { float: none; width: auto; }
+    #other li { float: none; width: auto;}
+    .container { width: auto;}
+    .other, #gallery img { width: auto;}
+}

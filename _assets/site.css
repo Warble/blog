@@ -1,0 +1,48 @@
+body { font-family:'Source Sans Pro', sans; color: #333; margin: 0px; }
+
+h1{color:#ca4434;font-weight: 100;}
+h2{color:#ca4434;font-weight: 100;}
+
+h1.title { font-size: 48px;}
+h2.sub { font-style: italic;}
+
+.container { margin: 0 auto; width: 1020px; padding: 20px; background: white;}
+
+#logo { width: 100px;}
+
+#footer { background-color: #ca4434; color: white; font-size: 24px; font-weight: bold; text-align:center;}
+#footer.fixed {height:50px; position:fixed; left:0; bottom:0px; width:100%; line-height: 50px; opacity: 0.95; }
+#index, #post { margin-bottom: 50px;} /* balances out the footer */
+
+.button { border-radius: 4px; font-size: 20px; font-weight: 700; text-decoration: none; padding: 4px 10px 4px 10px;}
+.button.white { background: white; color: #ca4434; }
+
+.left, .main, .right { margin:20px; }
+
+.left { width: 100px; float: left;}
+.main { width: 700px; float: left;}
+.right { width: 100px; float: left; text-align: right;}
+
+.zero-margin { margin: 0;}
+.post-gutter { margin-left: 100px;}
+
+.posts { margin: 40px 0 0 0; padding: 0;}
+.posts A { text-decoration: none; color: #333;}
+.posts LI { list-style-type: none; margin: 20px 0 40px 0; min-height: 150px;}
+.posts LI IMG { float: left; padding-right: 20px;}
+
+.posts LI .post-date { margin-left: 100px; display: block; margin-bottom: 10px;}
+.posts LI .post-title { margin-left: 100px; display: block; }
+
+.post-date B { color: #6699cc; }
+.post-title { font-weight: 100;font-size: 48px; line-height: 125%; color: #333; }
+#post .post-title { margin-left: -5px;} 
+
+.post-body { font-weight: 100; font-size: 20px;}
+
+.by { color:#ca4434; font-weight: 400; font-size: 20px; margin-top: 4px; }
+
+.post-info { font-weight: bold; font-weight: 600; margin-top: 20px;} 
+.post-info .date { font-size: 24px;}
+.post-info .category { font-size: 16px; }
+.post-info .category b { color: #6699cc;}

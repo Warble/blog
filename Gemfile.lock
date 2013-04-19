@@ -22,11 +22,14 @@ GEM
     liquid (2.5.0)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    middleman-gh-pages (0.0.2)
+      rake (> 0.9.3)
     posix-spawn (0.3.6)
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     railsless-deploy (1.1.0)
+    rake (10.0.4)
     syntax (1.0.0)
     yajl-ruby (1.1.0)
 
@@ -38,4 +41,5 @@ DEPENDENCIES
   directory_watcher (= 1.4.1)
   jekyll
   jekyll-asset-pipeline
+  middleman-gh-pages
   railsless-deploy

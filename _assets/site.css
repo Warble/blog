@@ -13,6 +13,7 @@ h2.sub { font-style: italic;}
 #footer { background-color: #ca4434; color: white; font-size: 20px; font-weight: bold; text-align:center;}
 #footer.fixed {height:50px; position:fixed; left:0; bottom:0px; width:100%; line-height: 50px; opacity: 0.95; }
 #index, #post { margin-bottom: 50px;} /* balances out the footer */
+#learn-more { margin-left: 40px }
 
 .button { border-radius: 4px; font-size: 20px; font-weight: 100; text-decoration: none; padding: 4px 10px 4px 10px;}
 .button.white { background: white; color: #ca4434; }

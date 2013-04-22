@@ -1,5 +1,7 @@
 module Jekyll
+
   module CategoryFilter
+    # used in pages to get url format of category name
     def dashed_category_name(cat)
       cat.gsub(/\s+/, '-')
     end

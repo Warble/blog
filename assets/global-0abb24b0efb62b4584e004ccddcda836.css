@@ -900,3 +900,10 @@ h2.sub { font-style: italic;}
     .container { width: auto;}
     .other, #gallery img { width: auto;}
 }
+
+ 
+@media screen and (min-width: 0px) and (max-width: 980px) {
+    .left, .main, .right { float: none; width: auto; }
+    .post-gutter { margin: 0;}
+    .container { width: auto; }
+}

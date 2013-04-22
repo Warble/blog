@@ -12,22 +12,23 @@
   h1, h2, h3 { line-height: 120%;}
 }
 
-@media screen and (min-width: 475px) and (max-width: 830px) {
-  #footer.fixed {height:50px;line-height: 105%; text-align: center; font-size: 16px; padding-top: 10px;}
+/* common across all three */
+@media screen and (min-width: 0px) and (max-width: 830px) {
+  #footer.fixed { line-height: 105%; text-align: center; font-size: 16px; }
   #footer .button { display: inline-block; margin-top: 5px; font-size: 16px;}
-  #index, #post { margin-bottom: 50px;} /* balances out the footer */
   #learn-more: { margin: 0; }
 }
-
+/* specifics */
+@media screen and (min-width: 475px) and (max-width: 830px) {
+  #footer.fixed { height:50px; padding-top: 10px; }
+  #index, #post { margin-bottom: 50px;} /* balances out the footer */
+}
 @media screen and (min-width: 350px) and (max-width: 474px) {
-  #footer.fixed {height:60px;line-height: 105%; text-align: center; font-size: 16px; padding-top: 10px;}
-  #footer .button { display: inline-block; margin-top: 5px; font-size: 16px;}
-  #index, #post { margin-bottom: 60px;} /* balances out the footer */
-  #learn-more { margin: 0; }
+  #footer.fixed { height:60px; padding-top: 10px; }
+  #index, #post { margin-bottom: 60px; } /* balances out the footer */
 }
 @media screen and (min-width: 0px) and (max-width: 349px) {
-  #footer.fixed {height:70px;line-height: 105%; text-align: center; font-size: 14px; padding-top: 10px;}
-  #footer .button { display: inline-block; margin-top: 5px; font-size: 14px;}
-  #index, #post { margin-bottom: 70px;} /* balances out the footer */
-  #learn-more { margin: 0; }
+  #footer.fixed { height:65px; padding-top: 10px; font-size:14px; }
+  #footer .button { font-size: 14px; }
+  #index, #post { margin-bottom: 65px; } /* balances out the footer */
 }

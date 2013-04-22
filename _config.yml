@@ -1,2 +1,2 @@
 ---
-exclude: Capfile, Gemfile, Gemfile.lock, Rakefile 
+exclude: Capfile, Gemfile, Gemfile.lock, Rakefile, category.html

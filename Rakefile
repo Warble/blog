@@ -22,7 +22,7 @@ task :publish => [ GH_PAGES ] do
   # clone if not already cloned
   clone = `git clone -b gh-pages #{HOST} .`
   # sync changes
-  puts `rsync -rtvuc --delete --exclude '.git' --exclude 'CNAME' #{source_dir}/_site/ ~/warble-gh-pages`
+  puts `rsync -rtvuc --delete --exclude '.git' --exclude 'CNAME' --exclude 'category.html' #{source_dir}/_site/ ~/warble-gh-pages`
   # add CNAME
   unless File.exist?('CNAME')
     `echo blog.warble.co >>CNAME`

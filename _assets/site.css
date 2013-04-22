@@ -28,14 +28,14 @@ h2.sub { font-style: italic;}
 .post-gutter { margin-left: 100px;}
 
 .posts { margin: 40px 0 0 0; padding: 0;}
-.posts A { text-decoration: none; color: #333;}
+.posts .post-title A { text-decoration: none; color: #333;}
+.posts .post-title A:hover { color: #ccc;}
 .posts LI { list-style-type: none; margin: 20px 0 40px 0; min-height: 150px;}
 .posts LI IMG { float: left; padding-right: 20px;}
 
 .posts LI .post-date { margin-left: 100px; display: block; margin-bottom: 10px;}
 .posts LI .post-title { margin-left: 100px; display: block; }
 
-.post-date B { color: #6699cc; }
 .post-title { font-weight: 100;font-size: 48px; line-height: 125%; color: #333; }
 #post .post-title { margin-left: -5px;} 
 
@@ -46,4 +46,6 @@ h2.sub { font-style: italic;}
 .post-info { font-weight: bold; font-weight: 600; margin-top: 20px;} 
 .post-info .date { font-size: 24px;}
 .post-info .category { font-size: 16px; }
-.post-info .category b { color: #6699cc;}
+
+.post-category { color: #6699cc; font-weight: bold; text-decoration: none;}
+.post-category:hover { color: #ccc;}

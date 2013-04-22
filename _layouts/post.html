@@ -14,7 +14,7 @@ layout: default
 
     <div class="post-info">
       <div class="date">{{ page.date || pretty }}</div>
-      <div class="category">Filed under: <b>{{ page.category }}</b></div>
+      <div class="category">Filed under: <a class="post-category" href="/{{ page.category }}">{{ page.category }}</a></div>
     </div>
 
     <div class="post-body">

@@ -33,6 +33,7 @@ h2.sub { font-style: italic;}
 .posts .post-title A:hover { color: #ccc;}
 .posts LI,
   .posts LI.sep { list-style-type: none; margin: 20px 0 40px 0; }
+.posts LI.sep:last-child { display: none;}
 .posts LI.sep { text-align: center; font-size: 40px; font-weight: 100; color: #ccc; margin: -20px 0 -20px 0; letter-spacing: -3px;}
 .posts LI IMG { float: left; padding-right: 20px;}
 

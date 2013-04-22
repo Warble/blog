@@ -30,7 +30,9 @@ h2.sub { font-style: italic;}
 .posts { margin: 40px 0 0 0; padding: 0;}
 .posts .post-title A { text-decoration: none; color: #333;}
 .posts .post-title A:hover { color: #ccc;}
-.posts LI { list-style-type: none; margin: 20px 0 40px 0; min-height: 150px;}
+.posts LI,
+  .posts LI.sep { list-style-type: none; margin: 20px 0 40px 0; }
+.posts LI.sep { text-align: center; font-size: 40px; font-weight: 100; color: #ccc; margin: -20px 0 -20px 0; letter-spacing: -3px;}
 .posts LI IMG { float: left; padding-right: 20px;}
 
 .posts LI .post-date { margin-left: 100px; display: block; margin-bottom: 10px;}

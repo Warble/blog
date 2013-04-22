@@ -865,7 +865,9 @@ h2.sub { font-style: italic;}
 .posts { margin: 40px 0 0 0; padding: 0;}
 .posts .post-title A { text-decoration: none; color: #333;}
 .posts .post-title A:hover { color: #ccc;}
-.posts LI { list-style-type: none; margin: 20px 0 40px 0; min-height: 150px;}
+.posts LI,
+  .posts LI.sep { list-style-type: none; margin: 20px 0 40px 0; }
+.posts LI.sep { text-align: center; font-size: 40px; font-weight: 100; color: #ccc; margin: -20px 0 -20px 0; letter-spacing: -3px;}
 .posts LI IMG { float: left; padding-right: 20px;}
 
 .posts LI .post-date { margin-left: 100px; display: block; margin-bottom: 10px;}
@@ -906,4 +908,11 @@ h2.sub { font-style: italic;}
     .left, .main, .right { float: none; width: auto; }
     .post-gutter { margin: 0;}
     .container { width: auto; }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .posts LI .post-date,
+  .posts LI .post-title  { margin: 0; margin-top: 30px;}
+  .post-title { line-height: 110%; clear:both;}
+  h1, h2, h3 { line-height: 120%;}
 }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Index
+title: Category {{ page.category_name }}
 ---
 
 <div id="index" class="container clearfix">
@@ -10,11 +10,13 @@ title: Index
   <div class="main">
 
     <h1 class="zero-margin post-gutter title">Warble Alerts Blog</h1>
-    <h2 class="sub zero-margin post-gutter">Learn more about Warble Alerts and how people are using it.</h2>
+    <h2 class="sub zero-margin post-gutter">{{ page.title }}</h2>
 
     <ul class="posts">
       {% for post in site.posts %}
-        {% include post_item.html %}
+        {% if post.category == page.category_name %}
+          {% include post_item.html %}
+        {% endif %}
       {% endfor %}
     </ul>
 
@@ -24,4 +26,3 @@ title: Index
   </div>
 
 </div>
-

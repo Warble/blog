@@ -4,9 +4,7 @@ layout: default
 
 <div id="post" class="container clearfix">
 
-  <div class="left">
-    <a href="/"><img id="logo" src="http://warble.co/images/home/Warble_Alerts_Logo.png" /></a>
-  </div>
+  {% include left.html %}
 
   <div class="main">
 
@@ -14,7 +12,7 @@ layout: default
 
     <div class="post-info">
       <div class="date">{{ page.date || pretty }}</div>
-      <div class="category">Filed under: <a class="post-category" href="/{{ page.category }}">{{ page.category }}</a></div>
+      <div class="category">Filed under: <a class="post-category" href="/category/{{ page.category | dashed_category_name }}/">{{ page.category }}</a></div>
     </div>
 
     <div class="post-body">

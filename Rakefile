@@ -3,9 +3,16 @@ HOST = "git@github.com:Warble/blog.git"
 
 directory GH_PAGES
 
+task :default => ["publish"]
+
 desc "Publishes the site to the gh-pages branch"
 task :publish => [ GH_PAGES ] do
   source_dir = Dir.pwd
+  jekyll = `jekyll`
+  if not jekyll =~ /Successfully generated site/
+    abort("Site not successfully generated - exiting")
+  end
+  puts jekyll
   # get our last log entry
   last_log = `git log --no-decorate --pretty=oneline --abbrev-commit -n1`
   puts last_log

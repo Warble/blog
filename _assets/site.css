@@ -49,3 +49,12 @@ h2.sub { font-style: italic;}
 
 .post-category { color: #6699cc; font-weight: bold; text-decoration: none;}
 .post-category:hover { color: #ccc;}
+
+::selection {
+  background: #ca4434;
+  color: white; /* Safari */
+  }
+::-moz-selection {
+  background: #ca4434; /* Firefox */
+  color: white;
+}

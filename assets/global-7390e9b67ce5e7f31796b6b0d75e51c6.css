@@ -841,7 +841,7 @@ h2{color:#ca4434;font-weight: 100;}
 h1.title { font-size: 48px;}
 h2.sub { font-style: italic;}
 
-a { color: #6699cc; text-decoration: none; font-weight: 200;}
+a { color: #6699cc; text-decoration: none; }
 a:hover { color: #ccc;}
 
 .container { margin: 0 auto; width: 1020px; padding: 20px; background: white;}
@@ -890,7 +890,8 @@ a:hover { color: #ccc;}
 .post-info .category { font-size: 16px; }
 
 .post-category { font-weight: bold;}
-/*.post-category:hover { color: #ccc;}
+.post-body { line-height: 1.5; }
+.post-body a { font-weight: 400; }
 
 ::selection {
   background: #ca4434;

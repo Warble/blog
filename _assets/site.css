@@ -57,6 +57,12 @@ a:hover { color: #ccc;}
 .post-category { font-weight: bold;}
 .post-body { line-height: 1.5; }
 .post-body a { font-weight: 400; }
+.post-body IMG { width: 100%; }
+.post-body IMG.large { border:1px solid #ccc;
+    margin:25px 0 25px 0;
+  }
+.post-body IMG.snippet { margin:5px 0 5px 0; }
+.post-body em { font-size:28px; }
 
 ::selection {
   background: #ca4434;

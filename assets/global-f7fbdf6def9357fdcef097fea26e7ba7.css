@@ -927,7 +927,8 @@ a:hover { color: #ccc;}
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .posts LI .post-date,
-  .posts LI .post-title  { margin: 0; margin-top: 30px;}
+  .posts LI .post-title { margin: 0; margin-top: 30px;}
+  .posts LI .post-snippet { margin: 0;}
   .post-title { line-height: 110%; clear:both;}
   h1, h2, h3 { line-height: 120%;}
 }

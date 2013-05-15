@@ -877,6 +877,8 @@ a:hover { color: #ccc;}
 
 .posts LI .post-date { margin-left: 100px; display: block; margin-bottom: 10px;}
 .posts LI .post-title { margin-left: 100px; display: block; }
+.posts LI .post-snippet { margin-left: 100px; display: block; color: #999; font-size: 18px; font-weight: 100;}
+.posts LI .post-snippet A { font-weight: bold; font-size: 16px; }
 
 .post-title { font-weight: 100;font-size: 48px; line-height: 125%; color: #333; }
 #post .post-title { margin-left: -5px;} 

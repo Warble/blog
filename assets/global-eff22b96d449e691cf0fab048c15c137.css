@@ -896,7 +896,8 @@ a:hover { color: #ccc;}
 .post-body IMG.large { border:1px solid #ccc;
     margin:25px 0 25px 0;
   }
-.post-body IMG.snippet { margin:5px 0 5px 0; }
+.post-body IMG.snippet { border:1px solid #ccc;
+    margin:5px 0 5px 0; }
 .post-body em { font-size:28px; }
 
 ::selection {

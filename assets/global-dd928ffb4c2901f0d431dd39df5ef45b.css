@@ -849,7 +849,7 @@ a:hover { color: #ccc;}
 #logo { width: 100px;}
 
 #footer { background-color: #ca4434; color: white; font-size: 20px; font-weight: bold; text-align:center;}
-#footer.fixed {height:50px; position:fixed; left:0; bottom:0px; width:100%; line-height: 50px; opacity: 0.95; }
+#footer.fixed {height:60px; line-height: 60px; position:fixed; left:0; bottom:0px; width:100%; opacity: 0.9; }
 #index, #post { margin-bottom: 50px;} /* balances out the footer */
 #learn-more { margin-left: 40px }
 

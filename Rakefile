@@ -54,7 +54,7 @@ task :quotes do
 
     doc = Nokogiri::XML(contents)
 
-    tags = ['p', 'a', 'h1', 'h2', 'h3', 'span']
+    tags = ['p', 'a', 'h1', 'h2', 'h3', 'span', 'em']
     tags.each do |tag|
       for elem in doc.xpath("//#{tag}/text()")
         elem.content = elem.content.gsub(/'/, '’') # apostrophe
